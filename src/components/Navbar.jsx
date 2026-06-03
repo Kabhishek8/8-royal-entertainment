@@ -24,9 +24,21 @@ function Navbar() {
         className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-10"
         aria-label="Primary navigation"
       >
-        <a href="#home" className="group flex items-center gap-3" aria-label="8 Royal Entertainment dance studio home">
+        <a
+          href="#home"
+          className="group flex min-w-0 flex-1 items-center gap-3 sm:flex-none"
+          aria-label="8 Royal Entertainment dance studio home"
+        >
           <span className="grid h-12 w-12 place-items-center rounded-full border border-white/15 bg-white/5 shadow-[0_0_40px_rgba(225,29,72,0.25)] transition duration-300 group-hover:border-[#E11D48]/60">
-            <img src={logo} alt="8 Royal Entertainment daance studio" className="h-9 w-9 object-contain" />
+            <img src={logo} alt="8 Royal Entertainment daance studio" className="h-11 w-11 object-contain" />
+          </span>
+          <span className="min-w-0 leading-none sm:hidden">
+            <span className="block truncate text-xs font-bold uppercase tracking-[0.24em] text-white">
+              8 Royal Entertainment
+            </span>
+            <span className="mt-1 block truncate text-[10px] uppercase tracking-[0.22em] text-white/60">
+              Dance Studio
+            </span>
           </span>
           <span className="hidden leading-none sm:block">
             <span className="block text-sm font-semibold uppercase tracking-[0.3em] text-white">
