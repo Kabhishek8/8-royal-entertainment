@@ -16,11 +16,13 @@ function ServiceArea() {
         className="mx-auto max-w-7xl rounded-[2rem] border border-white/10 bg-white/[0.025] p-6 text-center backdrop-blur-sm sm:p-8"
       >
         <p className="text-xs font-bold uppercase tracking-[0.32em] text-[#EF4444]">
-          Serving Across Navi Mumbai
+          Serving Across Maharashtra
         </p>
         <p className="mx-auto mt-4 max-w-4xl text-sm leading-7 text-white/56 sm:text-base">
-          Nerul, Seawoods, Belapur, CBD Belapur, Vashi, Kharghar, Sanpada,
-          Juinagar and Navi Mumbai.
+          Based in Nerul, Navi Mumbai, 8 Royal Entertainment proudly serves clients
+          across Maharashtra, with a strong presence in Mumbai and Navi Mumbai for
+          dance classes, wedding choreography, corporate events, stage performances,
+          and live entertainment services.
         </p>
       </motion.div>
     </section>

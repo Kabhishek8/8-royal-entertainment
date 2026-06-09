@@ -2,6 +2,8 @@ import { ArrowRight, ChevronDown } from 'lucide-react'
 import { motion } from 'framer-motion'
 import heroVideo from '../assets/videos/asht-cinematic.mp4'
 
+const whatsAppUrl = 'https://wa.me/918369776116'
+
 const trustStats = [
   { value: '1600+', label: 'Students Trained' },
   { value: '500+', label: 'Performances' },
@@ -101,14 +103,18 @@ function Hero() {
 
           <motion.div variants={itemVariants} className="mt-9 flex flex-col gap-4 sm:flex-row">
             <a
-              href="#programs"
+              href={whatsAppUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center justify-center gap-3 rounded-full bg-[#E11D48] px-7 py-4 text-sm font-extrabold uppercase tracking-[0.22em] text-white shadow-[0_18px_60px_rgba(225,29,72,0.38)] transition hover:-translate-y-0.5 hover:bg-[#EF4444]"
             >
               Join Classes
               <ArrowRight size={18} className="transition group-hover:translate-x-1" />
             </a>
             <a
-              href="#contact"
+              href={whatsAppUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/5 px-7 py-4 text-sm font-extrabold uppercase tracking-[0.22em] text-white backdrop-blur-md transition hover:-translate-y-0.5 hover:border-white/40 hover:bg-white/10"
             >
               Book Choreography

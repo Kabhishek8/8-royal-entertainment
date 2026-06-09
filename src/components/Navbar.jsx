@@ -3,6 +3,8 @@ import { Menu, X } from 'lucide-react'
 import { motion } from 'framer-motion'
 import logo from '../assets/logo/8red.png'
 
+const whatsAppUrl = 'https://wa.me/918369776116'
+
 const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Programs', href: '#programs' },
@@ -64,10 +66,10 @@ function Navbar() {
 
         <div className="hidden items-center gap-3 lg:flex">
           <a
-            href="#contact"
+            href="tel:+917977309533"
             className="rounded-full border border-white/15 bg-white/[0.03] px-5 py-3 text-xs font-bold uppercase tracking-[0.24em] text-white/80 transition hover:border-white/30 hover:bg-white/[0.07] hover:text-white"
           >
-            Enquire
+            Call Now
           </a>
         </div>
 
@@ -101,7 +103,9 @@ function Navbar() {
               </a>
             ))}
             <a
-              href="#programs"
+              href={whatsAppUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-2 rounded-2xl bg-[#E11D48] px-4 py-4 text-center text-sm font-black uppercase tracking-[0.22em] text-white shadow-[0_0_36px_rgba(225,29,72,0.34)] transition hover:bg-[#EF4444]"
               onClick={() => setIsOpen(false)}
             >

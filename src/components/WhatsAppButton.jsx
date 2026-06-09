@@ -1,14 +1,14 @@
 import { MessageCircle } from 'lucide-react'
 import { motion } from 'framer-motion'
 
-const whatsAppUrl = 'https://wa.me/917977309533'
+const whatsAppUrl = 'https://wa.me/918369776116'
 
 function WhatsAppButton() {
   return (
     <motion.a
       href={whatsAppUrl}
       target="_blank"
-      rel="noreferrer"
+      rel="noopener noreferrer"
       aria-label="Chat with 8 Royal Entertainment on WhatsApp"
       initial={{ scale: 0, opacity: 0 }}
       animate={{ scale: 1, opacity: 1, y: [0, -7, 0] }}

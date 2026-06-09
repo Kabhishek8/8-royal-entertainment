@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { MapPin, Music2, Phone, Send } from 'lucide-react'
 
 const services = ['Dance Classes', 'Wedding Choreography', 'Live Entertainment']
-const whatsAppNumber = '917977309533'
+const whatsAppNumber = '918369776116'
 
 function Contact() {
   const handleSubmit = (event) => {
